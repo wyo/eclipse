@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+    <com.xyxy.flysearchwords.FlyWords
+        android:id="@+id/custFrameLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/linearLayout01"
+        >
+    </com.xyxy.flysearchwords.FlyWords>
+
+    <LinearLayout 
+        android:id="@+id/linearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        
+        <Button 
+            android:id="@+id/btnIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/In"
+            />
+        
+        <Button 
+            android:id="@+id/btnOut"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/Out"
+            />
+        
+    </LinearLayout>
+
+</RelativeLayout>
