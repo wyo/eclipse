@@ -13,6 +13,7 @@ import android.content.Intent;
 
 public class MainActivity extends Activity implements OnClickListener{
 
+	/**存储备选关键字*/
 	 public static final String[] keywords = { "QQ", "Sodino", "APK", "GFW", "铅笔",//  
          "短信", "桌面精灵", "MacBook Pro", "平板电脑", "雅诗兰黛",//  
          "卡西欧 TR-100", "笔记本", "SPY Mouse", "Thinkpad E40", "捕鱼达人",//  
