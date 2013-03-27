@@ -1,0 +1,6 @@
+This is the 1.0 version. The basic function is that every minute, one …
+keyword with random color and text size, comes out from the bottom of
+the screen and the translate to the top of the screen at different speed
+with the alpha and scale changes. Duration the translation, you can
+click any keyword you like and start an Internet Explore to search the
+keyword using Google
